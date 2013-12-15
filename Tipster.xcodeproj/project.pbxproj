@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466B9B9C185C4DBC00905709 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 466B9B9B185C4DBC00905709 /* settings.png */; };
+		466B9BAF185C699700905709 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466B9BAE185C699700905709 /* SettingsViewController.m */; };
 		46E879221835EF5A00FE149B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E879211835EF5A00FE149B /* Foundation.framework */; };
 		46E879241835EF5A00FE149B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E879231835EF5A00FE149B /* CoreGraphics.framework */; };
 		46E879261835EF5A00FE149B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E879251835EF5A00FE149B /* UIKit.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		466B9B9B185C4DBC00905709 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		466B9BAD185C699700905709 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		466B9BAE185C699700905709 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		46E8791E1835EF5A00FE149B /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E879211835EF5A00FE149B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46E879231835EF5A00FE149B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +127,8 @@
 				46E8793A1835EF5A00FE149B /* ViewController.m */,
 				46E8793C1835EF5A00FE149B /* Images.xcassets */,
 				46E879281835EF5A00FE149B /* Supporting Files */,
+				466B9BAD185C699700905709 /* SettingsViewController.h */,
+				466B9BAE185C699700905709 /* SettingsViewController.m */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 		46E879281835EF5A00FE149B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				466B9B9B185C4DBC00905709 /* settings.png */,
 				46E879291835EF5A00FE149B /* Tipster-Info.plist */,
 				46E8792A1835EF5A00FE149B /* InfoPlist.strings */,
 				46E8792D1835EF5A00FE149B /* main.m */,
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466B9B9C185C4DBC00905709 /* settings.png in Resources */,
 				46E879381835EF5A00FE149B /* Main_iPad.storyboard in Resources */,
 				46E8793D1835EF5A00FE149B /* Images.xcassets in Resources */,
 				46E879351835EF5A00FE149B /* Main_iPhone.storyboard in Resources */,
@@ -256,6 +265,7 @@
 				46E8793B1835EF5A00FE149B /* ViewController.m in Sources */,
 				46E879321835EF5A00FE149B /* AppDelegate.m in Sources */,
 				46E8792E1835EF5A00FE149B /* main.m in Sources */,
+				466B9BAF185C699700905709 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +484,7 @@
 				46E879551835EF5A00FE149B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46E879561835EF5A00FE149B /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +493,7 @@
 				46E879581835EF5A00FE149B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

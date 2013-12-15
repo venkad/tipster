@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *billAmount;
+
+@property (weak, nonatomic) IBOutlet UILabel *tipPercentage;
+
+@property (weak, nonatomic) IBOutlet UILabel *tipAmount;
+
+@property (weak, nonatomic) IBOutlet UILabel *totalAmount;
+
 @end
